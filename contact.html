@@ -18,13 +18,13 @@
     <!-- Navbar code -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand bg-info text-white" href="#">Evan St. Martin</a>
+      <a class="navbar-brand text-white bg-info" href="#">Evan St Martin</a>
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
@@ -40,7 +40,39 @@
           <a class="nav-link" href="#"
             >Contact <span class="sr-only">(current)</span></a
           >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div id="contact" class="container p-4">
+        <h1 class="text-info">Contact</h1>
+        <hr />
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" />
         </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" />
+        </div>
+        <div class="mb-3">
+          <label for="msg-box" class="form-label">Message</label>
+          <textarea class="form-control" id="msg-box" rows="3"></textarea>
+        </div>
+        <button class="btn btn-info mb-3">Submt</button>
+        </div>
+    </main>
+    <footer>
+      <div class="footer fixed-bottom text-center">
+        This is a footer!
       </div>
     </nav>
   </body>

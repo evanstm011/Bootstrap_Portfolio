@@ -1,4 +1,38 @@
 #profile-pic{
-   height: 200px; 
-   width: 200px; 
+   height: 225px; 
+   width: 225px; 
 }
+body{
+    background-color: lightgrey;
+    }
+    
+    .container{
+        background-color: lightgrey;
+        margin: 15px;
+    }
+    
+    main{
+        margin-top: 75px;
+    }
+    
+
+    
+    #about p{
+        padding: 15px;
+        margin: 15px;
+    }
+    
+    #portfolio img{
+    height: 350px;
+    width: 350px;
+    } 
+    
+    main{
+        margin-top: 75px;
+    }
+    
+    .footer{
+        background-color:#666666!important;
+        color: white;
+        text-align: center;
+    }
