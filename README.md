@@ -1,2 +1,2 @@
 # Bootstrap_Portfolio
-<!--In this homework assigment I made an html webpage that is responsive using bootstrap. I struggled quite a bit with everything but feel like I've gotten to a plave where I am happy with the resuls. Despite things not being 100%--!>
+In this homework assigment I made an html webpage that is responsive using bootstrap. I struggled quite a bit with everything but feel like I've gotten to a plave where I am happy with the resuls. Despite things not being 100%.
